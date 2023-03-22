@@ -19,17 +19,3 @@ android {
 dependencies {
     implementation libraries.kotlin
 }
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-
-                groupId = 'com.github.MohamedAssemAli'
-                artifactId = 'com.youxel.my_calender_View'
-                version = '1.0'
-            }
-        }
-    }
-}
