@@ -17,12 +17,15 @@ android {
 }
 
 dependencies {
-    implementation project(':base')
     implementation libraries.kotlin
 
     implementation libraries.appCompat
     implementation libraries.androidxCore
     implementation libraries.androidxCustomView
+
+    implementation libraries.kotlin
+    implementation libraries.emoji
+    implementation libraries.startup
 
     testImplementation testing.androidxjUnit
     testImplementation testing.androidxTestRunner

@@ -17,7 +17,6 @@ android {
 }
 
 dependencies {
-    implementation project(':base')
     implementation project(':core')
 
     implementation libraries.kotlin
